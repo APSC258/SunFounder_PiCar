@@ -47,14 +47,10 @@ class PWM(object):
     RPI_REVISION_2_MODULE_B  = ["a01041", "a21041"]
     RPI_REVISION_2_MODULE_B  = ["a01041", "a21041"]
     RPI_REVISION_3_MODULE_B  = ["a02082", "a22082"]
-<<<<<<< HEAD:SunFounder_PiCar/picar/SunFounder_PCA9685/PCA9685.py
-    RPI_REVISION_3_MODULE_BP = ["b020d3"]
-
-=======
     RPI_REVISION_3_MODULE_BP = ["a020d3"]
     RPI_REVISION_4_MODULE_B = ["b03114"]
     RPI_REVISION_4_MODULE_BP = ["b03114"]
->>>>>>> 98183e4e2bff16b1ca8ebcdd138cb09f13a8c422:SunFounder_PCA9685/PCA9685.py
+
     _DEBUG = False
     _DEBUG_INFO = 'DEBUG "PCA9685.py":'
 
