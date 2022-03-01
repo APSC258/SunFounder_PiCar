@@ -53,19 +53,19 @@ function print_result(){
         echo -e "Failed"
     fi
     echo -e "python-smbus  \c"
-    if $is_installed_python_smbus; then
+    if ${is_installed_python_smbus}; then
         echo -e "Success"
     else
         echo -e "Failed"
     fi
     echo -e "python-opencv  \c"
-    if $is_installed_python_opencv; then
+    if ${is_installed_python_opencv}; then
         echo -e "Success"
     else
         echo -e "Failed"
     fi
     echo -e "libjpeg8-dev  \c"
-    if $is_installed_libjpeg8_dev; then
+    if ${is_installed_libjpeg8_dev}; then
         echo -e "Success"
     else
         echo -e "Failed"
